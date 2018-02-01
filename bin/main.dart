@@ -2,7 +2,7 @@ import 'package:jaguar/jaguar.dart';
 import 'package:path/path.dart' as p;
 
 main(List<String> arguments) async {
-  final server = new Jaguar();
+  final server = new Jaguar(port: 10001);
 
   // Serve with prefix stripped. Similar to 'alias' in Nginx.
   server.staticFiles('/static/*', 'static');
