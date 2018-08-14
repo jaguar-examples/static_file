@@ -1,12 +1,12 @@
 name: jaguar_examples_static_file
 description: Example showcasing how to serve static files using Jaguar
-version: 2.1.1
+version: 2.2.0
 homepage: https://github.com/jaguar-examples/static_file
 author: Ravi Teja Gudapati <tejainece@gmail.com>
 
 environment:
-  sdk: ">=2.0.0-dev.60.0 <3.0.0"
+  sdk: ">=2.0.0-dev.65.0 <3.0.0"
 
 dependencies:
-  jaguar: ^2.1.25
-  path: ^1.6.1
+  jaguar: ^2.2.0
+  path: ^1.6.2
